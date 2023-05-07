@@ -68,3 +68,7 @@ function separateLiquids(glass) {
 // Ejemplo de uso
 const unorderedElements = [["H", "H", "W", "O"]];
 console.log(separateLiquids(unorderedElements));
+
+module.exports = {
+  separateLiquids,
+};

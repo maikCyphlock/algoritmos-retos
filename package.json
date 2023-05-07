@@ -1,0 +1,28 @@
+{
+  "name": "algoritmos-retos",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Este repositorio es una colección de desafíos de algoritmia que yo mismo me he planteado para mejorar mis habilidades en este campo. Cada día subiré mi solución al reto correspondiente y espero que al final de los 60 días pueda haber crecido significativamente como programador.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maikCyphlock/algoritmos-retos.git"
+  },
+  "keywords": [
+    "retos",
+    "dynamic",
+    "programming"
+  ],
+  "author": "maikol aguilar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maikCyphlock/algoritmos-retos/issues"
+  },
+  "homepage": "https://github.com/maikCyphlock/algoritmos-retos#readme",
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}

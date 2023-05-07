@@ -38,3 +38,7 @@ countTime([0, 0, 1, 0, 0]); // 28
 - El array siempre tendrá al menos un led encendido.
 - El array puede tener cualquier longitud.
 - Si todos los leds están encendidos, el tiempo es 0.
+
+# creditos
+
+Reto sacado de [AdventJS](https://adventjs.dev/es/challenges/2022/9) reto n°9

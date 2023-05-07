@@ -1,3 +1,5 @@
+# reto
+
 Una empresa que fabrica luces de Navidad nos ha pedido que le echemos una mano.
 
 Tienen unas tiras led que son como un `Array`. Cada posición es un led y puede ser estar encendido (1) o apagado (0).
@@ -33,12 +35,12 @@ countTime([0, 0, 1, 0, 0]); // 28
 // 28s: [1, 1, 1, 1, 1]
 ```
 
-#### A tener en cuenta
+## A tener en cuenta
 
 - El array siempre tendrá al menos un led encendido.
 - El array puede tener cualquier longitud.
 - Si todos los leds están encendidos, el tiempo es 0.
 
-# creditos
+### creditos
 
 Reto sacado de [AdventJS](https://adventjs.dev/es/challenges/2022/9) reto n°9

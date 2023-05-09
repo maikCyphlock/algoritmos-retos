@@ -1,8 +1,7 @@
 const { separateLiquids } = require("./index");
-const { test, expect } = require("jest");
 
 // Tests that the function separates liquids correctly when all elements in the glass have different densities.
-test("test_separate_liquids_with_different_densities", () => {
+test("separate_liquids_with_different_densities", () => {
   const glass = [
     ["O", "H", "A"],
     ["W", "O", "W"],

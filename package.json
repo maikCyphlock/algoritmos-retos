@@ -1,11 +1,12 @@
 {
   "name": "algoritmos-retos",
   "version": "1.0.0",
-  "type": "module",
+ 
   "description": "Este repositorio es una colección de desafíos de algoritmia que yo mismo me he planteado para mejorar mis habilidades en este campo. Cada día subiré mi solución al reto correspondiente y espero que al final de los 60 días pueda haber crecido significativamente como programador.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
+    
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
   },
   "homepage": "https://github.com/maikCyphlock/algoritmos-retos#readme",
   "devDependencies": {
+    "@vitest/coverage-c8": "^0.31.0",
     "jest": "^29.5.0"
   }
 }

@@ -22,6 +22,8 @@ function separateLiquids(glass) {
     O: 4,
   };
 
+  if (glass.length < 1) return [];
+  if ((glass.length = 1)) return glass;
   let columna = glass.length;
   let row = glass[0].length;
   let result = [];
@@ -66,9 +68,7 @@ function separateLiquids(glass) {
 }
 
 // Ejemplo de uso
-const unorderedElements = [["H", "H", "W", "O"]];
+const unorderedElements = [["H", "H", "W", "O", "="]];
 console.log(separateLiquids(unorderedElements));
 
-module.exports = {
-  separateLiquids,
-};
+module.exports = { separateLiquids };
